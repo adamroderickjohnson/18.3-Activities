@@ -16,13 +16,14 @@ body {
   text-align: center;
 }
 .rotate img {
-/* Write your rotate transform here */
+  transform: rotate(180deg);
 }
 .scale {
   grid-area: scale;
   justify-content: center;
   display: grid;
   align-items: center;
+  transform: scale(2);
 }
 .scaleMe {
   width: 50px;
@@ -42,7 +43,7 @@ body {
   width: 100px;
   height: 100px;
   background-color: blue;
-  /* Write the translate transform here */
+  transform: translate(80%, 40%);
 }
 
 .gridChild {
