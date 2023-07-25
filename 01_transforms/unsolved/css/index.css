@@ -4,6 +4,7 @@ body {
 .grid {
   display: grid;
   grid-template-columns: 1fr;
+  background-color: red;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
   "rotate"
